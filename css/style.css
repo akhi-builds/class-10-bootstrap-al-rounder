@@ -1,0 +1,72 @@
+/* All Css File Start */
+*{
+  margin: 0;
+  padding: 0;
+}
+ul, ol{
+list-style-type: none;=
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+/* All Css File End */
+/* Header Part Start */
+.navbar{
+ background: #07110D;
+ padding: 20px 0; 
+} 
+.nav-link{
+ color: #9DB3A8;
+ font-size: 15px;
+ font-weight: 500;
+font-family: "Inter", sans-serif;
+margin: 0 20px;
+}
+.nav-link:hover{
+color: #9DB3A8;
+}
+.getbtn{
+padding: 12px 22px;
+background: #1FB57F;
+border-radius:999px;
+color: #07110D;
+}
+/* Header Part End */
+
+/* Bannar Part Start */
+#bannarPart{
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background:#07110D;
+}
+.cardShakib{
+  width:346px;
+  padding: 18px 22px;
+   background:#07110D;
+   border-radius: 18px;
+}
+.cardShakib h3{
+  color:#F4EFE6;
+  font-family: "Bebas Neue", sans-serif;
+font-size: 28px;
+font-weight: 400;
+text-transform: uppercase;
+}
+.cardShakib h4{
+  color:#9DB3A8;
+font-family: "Inter", sans-serif; 
+font-size: 13px;
+font-weight: 400;
+}
+.bannarRight{
+  position: relative;
+}
+.cardShakib{
+position: absolute;
+bottom: 20px;
+left: 20px;
+}
+
+
+/* Bannar Part End */
